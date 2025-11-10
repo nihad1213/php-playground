@@ -10,3 +10,7 @@ RUN apk add --no-cache \
     && docker-php-ext-install gd
 
 WORKDIR /var/www/html
+
+RUN mkdir -p /var/www/html/output && \
+    chown -R www-data:www-data /var/www/html && \
+    chmod -R 755 /var/www/html/output
