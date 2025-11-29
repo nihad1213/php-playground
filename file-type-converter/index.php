@@ -15,7 +15,7 @@
         </div>
 
         <!-- Form Container -->
-        <form class="bg-white rounded-2xl shadow-xl p-8 space-y-8">
+        <form class="bg-white rounded-2xl shadow-xl p-8 space-y-8" action="generate.php" method="POST">
             
             <!-- Personal Information Section -->
             <div class="border-b pb-6">
